@@ -6,7 +6,7 @@ function Tesla() {
   return (
     <div className="bg-neutral_Sliver w-full flex justify-center">
       <div className="max-w-6xl mx-auto">
-        <div className=" lg:px-24 px-4 py-5 flex justify-center items-center space-x-7">
+        <div className=" xl:px-24 px-6 py-5 flex justify-center items-center space-x-7">
           <div>
             <Image
               src="/tesla.svg"
@@ -37,8 +37,8 @@ function Tesla() {
               British Dragon Boat Racing Association
             </div>
             <br />
-            <div className="flex items-center justify-center">
-                <div className="flex justify-between items-center flex-wrap gap-3 gap-y-6 max-w-[802px]">
+            <div className="flex items-center justify-between">
+                <div className="flex justify-between items-center flex-wrap xl:gap-3 gap-3 gap-y-6 max-w-[802px]">
                 {[
                     { src: "/Logo-11.png", alt: "Icon 1", width: 100, height: 100 },
                     { src: "/Logo-1.png", alt: "Icon 2", width: 100, height: 100 },
@@ -47,7 +47,7 @@ function Tesla() {
                     { src: "/Logo-4.png", alt: "Icon 5", width: 100, height: 100 },
                     { src: "/Logo-5.png", alt: "Icon 6", width: 100, height: 100 },
                     ].map((image, index) => (
-                        <div key={index} className="relative w-[45px] h-[45px]">
+                        <div key={index} className="relative xl:w-[45px] xl:h-[45px] w-9 h-9">
                             <Image
                                 src={image.src}
                                 alt={image.alt}

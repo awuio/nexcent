@@ -5,7 +5,7 @@ function Ourclient() {
   return (
     <div className="bg-neutralwhite flex justify-center">
       <div className="max-w-[1200px] mx-auto">
-        <div className="lg:px-24 px-4 py-7">
+        <div className="xl:px-24 px-6 py-7">
           {/* Heading Section */}
           <div className="text-center">
             <h2 className="text-neutral_DGrey text-[28px]/[36px] font-semibold">
@@ -17,7 +17,7 @@ function Ourclient() {
           </div>
 
           {/* Clients Logos */}
-          <div className="mt-3 flex justify-between items-center flex-wrap gap-20 gap-y-6 max-w-[802px]">
+          <div className="mt-3 flex justify-between items-center flex-wrap xl:gap-20 gap-14 gap-y-6 max-w-[802px]">
             {[
               { src: "/Logo-11.png", alt: "Icon 1", width: 100, height: 100 },
               { src: "/Logo-1.png", alt: "Icon 2", width: 100, height: 100 },

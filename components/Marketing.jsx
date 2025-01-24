@@ -5,7 +5,7 @@ import { FaArrowRightLong } from "react-icons/fa6";
 function Marketing() {
   return (
     <div className="max-w-6xl mx-auto">
-      <div className=" lg:px-24 px-4 pt-8 items-center">
+      <div className=" xl:px-24 px-6 pt-8 items-center">
         <div className=" flex justify-center">
           <div className="text-center max-w-2xl">
             <h2 className="text-neutral_DGrey text-[28px]/[36px] font-semibold">
@@ -19,8 +19,8 @@ function Marketing() {
             </p>
           </div>
         </div>
-        <div className=" flex justify-center space-x-4 mt-2">
-          <div>
+        <div className=" flex justify-center xl:space-x-4 space-x-1 mt-4">
+          <div className=" xl:h-[290px]  h-[270px]">
             <Image
               src="/image 18.svg"
               alt="Next.js logo"
@@ -46,7 +46,8 @@ function Marketing() {
               </div>
             </div>
           </div>
-          <div>
+
+          <div className=" xl:h-[290px]  h-[270px]">
             <Image
               src="/image 19.svg"
               alt="Next.js logo"
@@ -73,7 +74,8 @@ function Marketing() {
               </div>
             </div>
           </div>
-          <div>
+
+          <div className=" xl:h-[290px]  h-[270px]">
             <Image
               src="/image 20.svg"
               alt="Next.js logo"

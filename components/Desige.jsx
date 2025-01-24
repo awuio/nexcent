@@ -4,7 +4,7 @@ import Image from "next/image";
 function Desige() {
   return (
     <div className="max-w-6xl mx-auto">
-      <div className=" lg:px-24 px-4 py-8 flex justify-center items-center space-x-7">
+      <div className=" xl:px-24 px-6 py-8 flex justify-center items-center space-x-7">
         <div>
           <Image
             src="/pana.svg"

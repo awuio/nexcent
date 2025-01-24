@@ -5,7 +5,7 @@ function Helping() {
   return (
     <div className="bg-neutral_Sliver w-full flex justify-center">
       <div className="max-w-6xl mx-auto">
-        <div className=" lg:px-24 px-4 py-11 flex justify-center ">
+        <div className=" xl:px-24 px-6 py-11 flex justify-center ">
           <div className=" flex items-center justify-between space-x-10">
             <div className=" w-[335px] ">
               <div className="text-neutral_DGrey text-[28px]/[36px] font-semibold text-nowrap">

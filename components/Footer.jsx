@@ -5,7 +5,7 @@ import Image from "next/image";
 function Footer() {
   return (
     <div>
-      <div className="bg-neutral_Sliver w-full flex justify-center py-5 lg:px-24 px-4 ">
+      <div className="bg-neutral_Sliver w-full flex justify-center py-5 xl:px-24 px-6 ">
         <div className="max-w-6xl mx-auto">
           <div className="flex justify-center">
             <div className="text-center">
@@ -27,7 +27,7 @@ function Footer() {
           </div>
         </div>
       </div>
-      <div className="bg-neutral_Black w-full flex justify-center lg:px-24 px-4 py-8">
+      <div className="bg-neutral_Black w-full flex justify-center xl:px-24 px-6 py-8">
         <div className="max-w-6xl mx-auto">
           <div className="flex justify-between space-x-28">
             <div className="my-auto">

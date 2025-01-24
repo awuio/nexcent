@@ -5,17 +5,17 @@ function Unseen() {
   return (
     <div className="flex justify-center">
       <div className="max-w-6xl mx-auto">
-        <div className=" lg:px-24 px-4 flex justify-center ">
+        <div className=" xl:px-24 pb-4 flex justify-center ">
           <div className="flex justify-center h-fit ">
-            <div className="flex justify-center items-center space-x-16">
-              <div className="h-[301.4px] w-[307.66px] flex items-center">
-                <div className="h-[229px] w-[307.34px] relative overflow-hidden">
+            <div className="flex justify-center items-center xl:space-x-16">
+              <div className="xl:h-[229px] xl:w-[307.34px] h-[209px] w-[287.34px] flex items-center">
+                <div className="xl:h-[229px] xl:w-[307.34px] h-[189px] w-[267.34px] relative overflow-hidden">
                   <Image
                     src="/rafiki1.png"
                     alt="Next.js logo"
                     quality={100}
                     priority
-                    layout="fill"
+                    layout="fill" 
                     objectFit="cover" // หรือ "contain" ถ้าต้องการแสดงภาพทั้งหมด
                     objectPosition="center"
                   />

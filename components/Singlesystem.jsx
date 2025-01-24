@@ -4,8 +4,8 @@ function Singlesystem() {
   return (
     <div className="flex justify-center">
       <div className="max-w-6xl mx-auto">
-        <div className=" lg:px-24 px-4 flex justify-center ">
-          <div className="mb-[61px]">
+        <div className=" xl:px-24 px-6 flex justify-center ">
+          <div className="xl:mb-14 mb-4">
             <div className="text-center">
               <h2 className="text-neutral_DGrey text-[28px]/[36px] font-semibold">
                 Manage your entire community <p>in a single system</p>
@@ -17,7 +17,7 @@ function Singlesystem() {
             <br />
 
             <div className="flex justify-center">
-              <div className="flex space-x-32 ">
+              <div className="flex xl:space-x-28 space-x-16 ">
                 <div>
                   <div className="text-center px-3 py-4 w-52 shadow">
                     <div className="flex justify-center mb-4 ">

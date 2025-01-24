@@ -5,7 +5,7 @@ function Hero() {
   return (
     <div className="bg-neutral_Sliver w-full flex justify-center">
       <div className="max-w-6xl mx-auto">
-        <div className=" lg:px-24 px-4 py-16 flex justify-center ">
+        <div className=" xl:px-24 px-6 xl:py-16 py-10 flex justify-center ">
           <div className="flex items-center">
             <div>
               <div>
