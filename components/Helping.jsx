@@ -37,7 +37,7 @@ function Helping() {
                 </div>
                 <div className=" flex w-36">
                   <Image
-                    src="/Clubs.png"
+                    src="/Clubs.svg"
                     alt="Next.js logo"
                     width={33.41}
                     height={33.41}

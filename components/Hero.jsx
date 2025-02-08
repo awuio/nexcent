@@ -31,7 +31,7 @@ function Hero() {
           </div>
           <div className=" ml-[72px]">
             <Image
-              src="/Illustration.png"
+              src="/Illustration.svg"
               alt="Next.js logo"
               width={272.16}
               height={283.3}

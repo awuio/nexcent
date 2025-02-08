@@ -11,7 +11,7 @@ function Unseen() {
               <div className="xl:h-[229px] xl:w-[307.34px] h-[209px] w-[287.34px] flex items-center">
                 <div className="xl:h-[229px] xl:w-[307.34px] h-[189px] w-[267.34px] relative overflow-hidden">
                   <Image
-                    src="/rafiki1.png"
+                    src="/rafiki1.svg"
                     alt="Next.js logo"
                     quality={100}
                     priority

@@ -40,12 +40,12 @@ function Tesla() {
             <div className="flex items-center justify-between">
                 <div className="flex justify-between items-center flex-wrap xl:gap-3 gap-3 gap-y-6 max-w-[802px]">
                 {[
-                    { src: "/Logo-11.png", alt: "Icon 1", width: 100, height: 100 },
-                    { src: "/Logo-1.png", alt: "Icon 2", width: 100, height: 100 },
-                    { src: "/Logo-2.png", alt: "Icon 3", width: 100, height: 100 },
-                    { src: "/Logo-3.png", alt: "Icon 4", width: 100, height: 100 },
-                    { src: "/Logo-4.png", alt: "Icon 5", width: 100, height: 100 },
-                    { src: "/Logo-5.png", alt: "Icon 6", width: 100, height: 100 },
+                    { src: "/Logo-11.svg", alt: "Icon 1", width: 100, height: 100 },
+                    { src: "/Logo-1.svg", alt: "Icon 2", width: 100, height: 100 },
+                    { src: "/Logo-2.svg", alt: "Icon 3", width: 100, height: 100 },
+                    { src: "/Logo-3.svg", alt: "Icon 4", width: 100, height: 100 },
+                    { src: "/Logo-4.svg", alt: "Icon 5", width: 100, height: 100 },
+                    { src: "/Logo-5.svg", alt: "Icon 6", width: 100, height: 100 },
                     ].map((image, index) => (
                         <div key={index} className="relative xl:w-[45px] xl:h-[45px] w-9 h-9">
                             <Image
